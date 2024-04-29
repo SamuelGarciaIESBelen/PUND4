@@ -14,13 +14,13 @@ public class PUND4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Apuesta laApuesta;
+        Apuesta laApuesta;
         int mi_dinero;
 
         laApuesta = new Apuesta(1000, 4, 2);
-        
+
         operativa_Apuesta(laApuesta, 100);
-        
+
         mi_dinero = laApuesta.getDinero_disp();
         System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
     }
@@ -40,5 +40,5 @@ public class PUND4 {
             System.out.println("Fallo al cobrar la apuesta");
         }
     }
-    
+
 }
